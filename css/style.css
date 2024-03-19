@@ -337,3 +337,125 @@
     color: #45260a;
 }
 
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+  /* Adjust header */
+  .header {
+    padding: 20px;
+  }
+  .main-nav {
+    display: none;
+  }
+  .logo {
+    width: 100px; /* Adjust logo size */
+  }
+  .main-nav-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .main-nav-link {
+    font-size: 16px;
+  }
+  /* Adjust hero section */
+  .hero {
+    flex-direction: column;
+  }
+  .hero-img {
+    width: 100%; /* Make hero image full width */
+  }
+  .hero-text-box {
+    text-align: center;
+  }
+  .heading-primary {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  .hero-description {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .delivered-meals {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .delivered-text {
+    font-size: 12px;
+  }
+  /* Adjust featured section */
+  .section-featured {
+    padding: 20px 0;
+  }
+  .featured-in-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  .logos img {
+    width: 100px; /* Adjust logo size */
+  }
+  /* Adjust how section */
+  .section-how {
+    padding: 20px 0;
+  }
+  .subheading {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .heading-secondary {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .step-text-box,
+  .step-img-box {
+    text-align: center;
+  }
+  .step-img {
+    width: 100%; /* Make step images full width */
+  }
+  .step-number {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .heading-tertiary {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .step-description {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  /* Adjust CTA section */
+  .section-cta {
+    padding: 20px;
+  }
+  .cta-text-box {
+    text-align: center;
+  }
+  .heading-secondary {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .cta-text {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .cta-form {
+    margin-bottom: 20px;
+  }
+  .btn--form {
+    font-size: 16px;
+  }
+}
